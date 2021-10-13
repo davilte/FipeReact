@@ -43,3 +43,34 @@ export const Item = styled.View`
 export const Label = styled.Text`
     color: black;
 `
+
+export const Option = styled.View`
+    padding: 16px 32px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+`
+
+export const Type = styled.Text`
+    font-weight: 700;
+    width: 50%;
+`
+
+export const Value = styled.Text`
+    width: 50%;
+    text-align: right;
+`
+
+export const CloseModal = styled.Pressable`
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: 32px;
+    background: black;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 32px;
+`
